@@ -236,6 +236,14 @@ return [
         ],
 
         [
+            'text' => 'User',
+            'url'  => 'User',
+            'icon' => 'fas fa-fw fa-user',
+            'can' => 'isAdmin',
+            
+        ],
+
+        [
             'text' => 'Pengelolaan Barang',
             'url'  => 'product',
             'icon' => 'fas fa-fw fa-book',
